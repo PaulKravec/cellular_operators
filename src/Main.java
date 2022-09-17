@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100; // Начальный счёт
-        int x1 = 1100; // Cумма пополнения
-        int x2 = 100; // Вторая сумма пополнения
-        if (x1 >= 1000) {
-            System.out.println(x1 + x + (x1 / x));
+        int startingScore = 100; // Начальный счёт
+        int replenishmentAmount = 1100; // Cумма пополнения
+        int secondReplenishmentAmount = 100; // Вторая сумма пополнения
+        if (replenishmentAmount >= 1000) {
+            System.out.println(replenishmentAmount + startingScore + (replenishmentAmount / startingScore));
         } else {
-            System.out.println(x + x2);
+            System.out.println(startingScore + secondReplenishmentAmount);
         }
 
 
